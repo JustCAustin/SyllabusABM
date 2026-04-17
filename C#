@@ -1,1 +1,22 @@
+using System;
 
+class Calculator
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("=== Simple Calculator ===\n");
+
+        Console.Write("Enter the first number: ");
+        double num1 = double.Parse(Console.ReadLine());
+
+        Console.Write("Enter the second number: ");
+        double num2 = double.Parse(Console.ReadLine());
+
+        double sum= num1 + num2;
+        double subtraction = num1 - num2;
+
+        Console.WriteLine($"\nResults:");
+        Console.WriteLine($"{num1} + {num2} = {sum}");
+        Console.WriteLine($"{num1} - {num2} = {subtraction}");
+    }
+}
