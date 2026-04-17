@@ -12,7 +12,7 @@ class Calculator
         Console.Write("Enter the second number: ");
         double num2 = double.Parse(Console.ReadLine());
 
-        double sum= num1 + num2;
+        double sum = num1 + num2;
         double subtraction = num1 - num2;
 
         Console.WriteLine($"\nResults:");
